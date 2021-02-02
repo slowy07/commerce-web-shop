@@ -14,7 +14,6 @@ import useStyles from "./style";
 const Product = ({ product }) => {
   const classes = useStyles();
 
-
   return (
     <Card className={classes.root}>
       <CardMedia
@@ -31,7 +30,12 @@ const Product = ({ product }) => {
             {product.price.formatted_with_symbol}
           </Typography>
         </div>
-        <Typography dangerouslySetInnerHTML={{ __html: product.description }} variant="body2" color="textSecondary" component="p" />
+        <Typography
+          dangerouslySetInnerHTML={{ __html: product.description }}
+          variant="body2"
+          color="textSecondary"
+          component="p"
+        />
       </CardContent>
       <CardActions disabledSpacing className={classes.CardActions}>
         <IconButton aria-label="Add to cart">

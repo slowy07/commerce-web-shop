@@ -23,7 +23,7 @@ const products = [
 ];
 */
 
-const Products = ({products}) => {
+const Products = ({ products }) => {
   return (
     <main>
       <Grid container justtify="center" spacing={4}>
