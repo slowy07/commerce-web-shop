@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 
 import Product from "./Product/Product";
-
+/*
 const products = [
   {
     id: 1,
@@ -21,8 +21,9 @@ const products = [
       "https://static.bhphoto.com/images/images2500x2500/1588701104_1560524.jpg",
   },
 ];
+*/
 
-const Products = () => {
+const Products = ({products}) => {
   return (
     <main>
       <Grid container justtify="center" spacing={4}>
