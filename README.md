@@ -14,6 +14,7 @@ export const commerce = new Commerce("PUBLIC API");
 ```
 
 ## running commerce web shop
+
 ```bash
 cd commerce-web-shop
 npm start
