@@ -4,12 +4,18 @@ import { Grid } from "@material-ui/core";
 import Product from "./Product/Product";
 
 const products = [
-  { id: 1, name: "Shoes", description: "Running Shoes", price: "Rp.1.999.999" },
+  { 
+    id: 1, 
+    name: "Shoes", 
+    description: "Running Shoes", 
+    price: "Rp.1.999.999", 
+    image: 'https://www.rebelsport.com.au/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-srg-internal-master-catalog/default/dwc6fd9556/images/58553901/Rebel_58553901-00_blackwhite_hi-res.jpg?sw=558&sh=558&sm=fit' },
   {
     id: 2,
     name: "Macbook",
     description: "Apple Macbook",
     price: "Rp.16.999.999",
+    image: 'https://static.bhphoto.com/images/images2500x2500/1588701104_1560524.jpg'
   },
 ];
 
