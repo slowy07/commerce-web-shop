@@ -1,8 +1,8 @@
-import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import React from "react";
+import Grid from "@material-ui/core/Grid";
 
-import Product from './Product/Product';
-import useStyles from './style';
+import Product from "./Product/Product";
+import useStyles from "./style";
 
 const Products = ({ products, onAddToCart }) => {
   const classes = useStyles();

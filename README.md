@@ -21,6 +21,7 @@ npm start
 ```
 
 ## images
+
 ![homepage](./images/homepage.png)
 ![checkout](./images/checkout.png)
 ![payment](./images/payment.png)
