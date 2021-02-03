@@ -53,5 +53,4 @@ const PrimarySearchAppBar = ({ totalItems }) => {
     </>
   );
 };
-
 export default PrimarySearchAppBar;
