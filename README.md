@@ -19,3 +19,8 @@ export const commerce = new Commerce("PUBLIC API");
 cd commerce-web-shop
 npm start
 ```
+
+## images
+![homepage](./images/homepage.png)
+![checkout](./images/checkout.png)
+![payment](./images/payment.png)
